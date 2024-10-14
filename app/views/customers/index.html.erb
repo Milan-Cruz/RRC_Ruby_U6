@@ -1,0 +1,10 @@
+<h1>All Customers</h1>
+<div class="customer-grid">
+  <%= render partial: "customer", collection: @customers %>
+</div>
+
+<h1>All Customers</h1>
+<div class="customer-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+  <%= render partial: "customer", collection: @customers %>
+</div>
+
