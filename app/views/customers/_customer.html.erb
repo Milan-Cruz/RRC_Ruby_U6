@@ -3,7 +3,6 @@
     <%= image_tag customer.image, class: "customer-image" %>
   <% end %>
   <h3><%= customer.full_name %></h3>
-  <p><strong>Address:</strong> <%= customer.address || "Unknown" %></p>
   <p><%= customer.phone_number %></p>
   <p><%= customer.email_address || "N/A" %></p>
 </div>
